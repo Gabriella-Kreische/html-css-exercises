@@ -57,6 +57,8 @@ text-decoration: none;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(../images/background001.jpg);
+    background-position: right center;
 }
 
 #welcome-section p {
@@ -68,7 +70,7 @@ text-decoration: none;
 #projects {
     padding: 10rem 2rem;
     width: 100vw;
-    background: linear-gradient(black,#2E386C 5%, #2E386C 95%, black 100%);
+    background: linear-gradient(rgb(0, 0, 0),#4053af 5%, #2E386C 95%, black 100%);
     border: 2px solid black;
     display: flex;
     flex-direction: column;
@@ -119,7 +121,7 @@ h1 {
 #contact {
     height: 100vh;
     width: 100vw;
-    background-color: #1587B3;
+    background-color: #f54f5d;
     border: 2px solid black;
     display: flex;
     flex-direction: column;
